@@ -1,0 +1,64 @@
+body{
+background-color: pink;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-image: url(/img/nubes.jpg);
+background-size: cover;
+}
+
+h1{
+    text-align: center;
+    border:aquamarine 5px dashed;
+
+}
+.primera-imagen p{
+    text-align: center;
+text-decoration:underline;
+border-style:inset;
+
+}
+
+.primera-imagen img{
+    height: 400px;
+    width: 500px;
+    margin-left: 32rem
+    
+}
+.primera-imagen div p{
+   display: block;
+   border-style: none;
+    }
+
+.segunda-imagen p{
+    text-align: center;
+    text-decoration:underline;
+    border-style:inset;
+
+}
+
+.segunda-imagen img{
+height: 400px;
+margin-left: 35rem;
+}
+
+.segunda-imagen div p{
+    display: block;
+    border-style: none;
+
+    
+}
+
+.tercera-imagen p{
+    text-align: center;
+    text-decoration:underline;
+    border-style: inset;
+}
+
+.tercera-imagen img{
+height: 400px;
+margin-left: 32rem
+}
+
+.tercera-imagen div p{
+    display: block;
+    border-style: none;
+}
