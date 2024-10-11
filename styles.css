@@ -8,57 +8,86 @@ background-size: cover;
 h1{
     text-align: center;
     border:aquamarine 5px dashed;
-
 }
+
+.contenedor{
+    
+display: flex;
+flex-direction: column;
+margin: auto;
+align-items: center;
+justify-content: center;
+}
+
+.primera-imagen{
+    width: 500px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.encabezado{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 10px;
+    }
+
 .primera-imagen p{
-    text-align: center;
+text-align: left;
 text-decoration:underline;
 border-style:inset;
+margin: 0;
 
 }
 
 .primera-imagen img{
     height: 400px;
-    width: 500px;
-    margin-left: 32rem
-    
-}
-.primera-imagen div p{
-   display: block;
-   border-style: none;
+    width: 100%;
     }
 
-.segunda-imagen p{
-    text-align: center;
+    .segunda-imagen{
+        width: 500px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .encabezado{
+        justify-content: space-between;
+        display: flex;
+        margin-bottom: 10px;
+        }
+    
+    .segunda-imagen p{
+    text-align: left;
     text-decoration:underline;
     border-style:inset;
-
-}
-
-.segunda-imagen img{
-height: 400px;
-margin-left: 35rem;
-}
-
-.segunda-imagen div p{
-    display: block;
-    border-style: none;
-
+    margin: 0;
     
-}
+    }
+    
+    .segunda-imagen img{
+        height: 400px;
+        width: 100%;
+        }
 
-.tercera-imagen p{
-    text-align: center;
-    text-decoration:underline;
-    border-style: inset;
-}
+        .tercera-imagen{
+            width: 500px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .encabezado{
+            justify-content: space-between;
+            display: flex;
+            margin-bottom: 10px;
+            }
+        
+        .tercera-imagen p{
+        text-align: left;
+        text-decoration:underline;
+        border-style:inset;
+        margin: 0;
+        
+        }
+        
+        .tercera-imagen img{
+            height: 400px;
+            width: 100%;
+            }
 
-.tercera-imagen img{
-height: 400px;
-margin-left: 32rem
-}
-
-.tercera-imagen div p{
-    display: block;
-    border-style: none;
-}
